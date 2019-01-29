@@ -1,4 +1,7 @@
 ---
+
+- include_vars: ../../../../../includes/vault.yaml
+
 - name: Install Server Density dependencies (Debian/Ubuntu)
   apt:
     name: curl
