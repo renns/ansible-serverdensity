@@ -1,4 +1,5 @@
 ---
+
 - name: Install Server Density dependencies (Debian/Ubuntu)
   apt:
     name: curl
